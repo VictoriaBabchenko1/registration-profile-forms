@@ -2,7 +2,7 @@ import { useForm } from 'react-hook-form';
 import { ProgressBar } from "../ProgressBar/ProgressBar";
 import { useState } from "react";
 import './ProfileForm.css';
-import { ProfileFormData } from "../types/ProfileFormData";
+import { ProfileFormData } from "../../types/ProfileFormData";
 
 type Props = {
     onComplete: (data: ProfileFormData) => void;

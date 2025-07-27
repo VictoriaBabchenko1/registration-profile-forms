@@ -2,7 +2,7 @@ import { useForm } from 'react-hook-form';
 import { useState } from 'react';
 import './RegistrationForm.css';
 import { ProgressBar } from "../ProgressBar/ProgressBar";
-import { RegistrationFormData } from "../types/RegistarationFormData";
+import { RegistrationFormData } from "../../types/RegistarationFormData";
 
 type RegistrationFormProps = {
     onComplete: (data: RegistrationFormData) => void;

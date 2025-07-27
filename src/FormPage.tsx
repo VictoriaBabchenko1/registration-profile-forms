@@ -3,9 +3,9 @@ import RegistrationForm from './components/RegistrationForm/RegistrationForm';
 import ProfileForm from './components/ProfileForm/ProfileForm';
 import './FormPage.css';
 import './index.css';
-import { UserData } from "./components/types/UserData";
-import { RegistrationFormData } from "./components/types/RegistarationFormData";
-import { ProfileFormData } from "./components/types/ProfileFormData";
+import { UserData } from "./types/UserData";
+import { RegistrationFormData } from "./types/RegistarationFormData";
+import { ProfileFormData } from "./types/ProfileFormData";
 
 const FormPage = () => {
     const [step, setStep] = useState(1);
