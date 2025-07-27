@@ -1,0 +1,226 @@
+@import '../../reset.css ';
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 32px;
+  max-width: 455px;
+  overflow: hidden;
+}
+
+.form-info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.registration-step {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.description {
+  font-weight: 300;
+  color: #575F6E;
+}
+
+.privacy-info {
+  background-color: #F0F2F4;
+  padding: 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #242426;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form-input-group {
+  border-radius: 8px;
+  border: 1px solid #E2E4E5;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.col-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-bottom: 1px solid #E2E4E5;
+  padding: 8px 16px;
+  background-color: white;
+  outline: none;
+  font-size: 16px;
+}
+
+.input {
+  outline: none;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-bottom: 1px solid #E2E4E5;
+  padding: 8px 16px;
+  font-size: 16px;
+  width: 75%;
+}
+
+input:focus {
+  background: transparent;
+
+}
+
+.input-full {
+  width: 100%;
+}
+
+.input-code {
+  font-size: 18px;
+  padding: 8px;
+  letter-spacing: 10px;
+  border-bottom: 1px solid #007AFF;
+  outline: none;
+  width: 100%;
+}
+
+.input-password {
+  letter-spacing: 5px;
+}
+
+.button {
+  width: 140px;
+  padding: 10px 15px;
+  border: 1px solid #BBBFC1;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 48px;
+  text-align: center;
+}
+
+.primary-btn {
+  background-color: #007AFF;
+  color: white;
+  font-weight: 450;
+}
+
+.button:hover {
+  background-color: #F0F2F4;
+}
+
+.primary-btn:hover {
+  background-color: #026ee3;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.success-text {
+  color: #34C759;
+  font-size: 14px;
+}
+
+.label {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.confirmation-form-blocks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.helper-text {
+  color: #575F6E;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.send-again-button {
+  background-color: transparent;
+  border: none;
+}
+
+.phone-preview-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 8px;
+  border: 1px solid #E2E4E5;
+  padding: 16px;
+}
+
+.phone-text {
+  font-size: 18px;
+}
+
+.subtext {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 13px;
+  color: #575F6E;
+}
+
+.input-with-btn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edit-button {
+  position: absolute;
+  background: none;
+  border: none;
+  bottom: 2%;
+  right: 2%;
+}
+
+.eye-button {
+  position: absolute;
+  right: 3%;
+  bottom: 2%;
+  background: transparent;
+  border: none;
+}
+
+.no-borders-btn {
+  border: none;
+  padding: 0;
+}
