@@ -137,7 +137,7 @@
     font-size: 16px;
 }
 
-.inputGroup {
+.inputGroup, .phoneInputGroup {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -151,6 +151,7 @@
     gap: 15px;
     padding-bottom: 8px;
     border-bottom: 1px solid #E2E4E5;
+    overflow: scroll;
 }
 
 .button {
@@ -191,4 +192,26 @@
 .no-borders-btn {
     border: none;
     padding: 0;
+}
+
+@media (max-width: 510px) {
+    .form {
+        width: 100%;
+    }
+
+    .form-info-text {
+        text-align: center;
+    }
+
+    .button, .progress-bar, .terms-block {
+        align-self: center;
+    }
+
+    .inputGroup {
+        flex-direction: column;
+    }
+
+    .phoneInputGroup {
+        gap: 12px;
+    }
 }

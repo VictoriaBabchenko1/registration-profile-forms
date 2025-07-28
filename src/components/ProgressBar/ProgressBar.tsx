@@ -12,7 +12,7 @@ const stepImages = [
 
 export const ProgressBar: React.FC<StepIndicatorProps> = ({ currentStep }) => {
     return (
-        <div>
+        <div className="progress-bar-wrapper">
             <img
                 src={stepImages[currentStep-1]}
                 alt={`step-${currentStep + 1}`}

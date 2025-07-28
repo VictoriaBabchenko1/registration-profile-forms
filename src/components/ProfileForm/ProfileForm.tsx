@@ -27,7 +27,7 @@ const ProfileForm = ({ onComplete, phone, email }: Props) => {
 
     return (
         <form onSubmit={handleSubmit(onSubmit)} className="form">
-            <ProgressBar currentStep={step} />
+            <div className="progress-bar"><ProgressBar currentStep={step} /></div>
 
             <div className="form-info-text">
                 <h2 className="title">Profile info</h2>

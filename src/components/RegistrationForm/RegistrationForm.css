@@ -224,3 +224,29 @@ input:focus {
   border: none;
   padding: 0;
 }
+
+@media (max-width: 768px) {
+  .form {
+    width: 100%;
+    align-self: center;
+  }
+
+  .form-info-text {
+    text-align: center;
+  }
+
+  .progress-bar, .button {
+    align-self: center;
+  }
+
+  .send-again-button {
+    padding: 0;
+    margin-left: -15px;
+  }
+
+  .confirmation-form-blocks {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

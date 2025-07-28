@@ -28,7 +28,7 @@ const RegistrationForm = ({ onComplete }: RegistrationFormProps) => {
 
     return (
         <form onSubmit={handleSubmit(onSubmit)} className="form">
-            <ProgressBar currentStep={step} />
+            <div className="progress-bar"><ProgressBar currentStep={step} /></div>
 
             <div className="form-info-text">
                 <h2 className="title">Registration</h2>
@@ -47,7 +47,7 @@ const RegistrationForm = ({ onComplete }: RegistrationFormProps) => {
                     </div>
                     <div className="form-input-group">
                         <label className="label">Enter your phone number</label>
-                        <div className="inputGroup">
+                        <div className="phoneInputGroup">
                             <select className="select" {...register('countryCode')}>
                                 <option value="+1">+1</option>
                                 <option value="+380">+380</option>

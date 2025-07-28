@@ -8,6 +8,7 @@
     padding: 40px 80px 100px 80px;
     overflow: auto;
     min-height: 100vh;
+    min-width: 100vw;
 }
 
 .header {
@@ -16,6 +17,11 @@
     align-items: center;
     width: 100%;
     cursor: pointer;
+}
+
+.close-button {
+    width: 40px;
+    height: 40px;
 }
 
 .success-message-container {
@@ -44,4 +50,21 @@
 .success-icon {
     width: 35px;
     height: auto;
+}
+
+@media (max-width: 1150px) {
+    .container {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px 20px 50px 20px;
+    }
+
+    .close-button {
+        width: 34px;
+        height: 34px;
+    }
 }
